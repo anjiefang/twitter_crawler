@@ -12,6 +12,6 @@ Using the following command line to compile the code:
 
 mvn clean compile assembly:single
 
-Type "java -jar crawler-1.0-SNAPSHOT-jar-with-dependencies.jar" to check the usage of the code.
+Type "java -jar ./target/crawler-1.0-SNAPSHOT-jar-with-dependencies.jar" to check the usage of the code.
 
 E.g. To crawl the followers of a given handle list, use "java -jar target/crawler-1.0-SNAPSHOT-jar-with-dependencies.jar -c API.example.config -f handlelist.examples.csv -fo -o ~/"
