@@ -1,4 +1,4 @@
-This java code is used to crawl Twitter user's information (follower/followee network, description etc) by giving a list of Twitter handels. The code uses multi Twitter API keys to avoid API limits. It is not suggest to use too many keys in this code.
+This java code is used to crawl Twitter user's information (follower/followee network, description etc) by giving a list of Twitter handels. The code uses multi Twitter API keys to avoid API limits. However, I don't suggest to use too many API keys in this code.
 ------------------------------------------------------------------------
 
 API keys configuration file:
