@@ -19,6 +19,7 @@ public class getDescription implements Fectch{
 
 	public getDescription(twitterConfB_from_confile tc){
 		this.tc =tc;
+		cache_ID = new HashSet<Long>();
 	}
 	
 	@SuppressWarnings("unchecked")
