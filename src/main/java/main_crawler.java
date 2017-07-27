@@ -28,6 +28,7 @@ public class main_crawler {
     @Option(name = "-id", usage = "Crawl the ids of the given list.")
     private Boolean isID = false;
 
+    // format of csv: screen_name, list_name
     @Option(name = "-isMember", usage = "Crawl the all the member of a exisitng list.")
     private Boolean isMember = false;
 
