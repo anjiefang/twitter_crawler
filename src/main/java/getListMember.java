@@ -15,6 +15,7 @@ public class getListMember implements Fectch{
 	}
 
 	public void run(String name, String dir){
+		//format in csv file: screen_name, listname
 		String ownerName = name.split(",")[0];
 		String listName = name.split(",")[1];
 
