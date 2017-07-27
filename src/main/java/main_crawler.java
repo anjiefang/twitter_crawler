@@ -83,7 +83,8 @@ public class main_crawler {
             getListMember glm = new getListMember(tconfig);
             glm.run(this.handle_list, this.output);
         }
-
+        
+        // unckecked code
         if(this.isDesc){
             getDescription gd = new getDescription(tconfig);
             gd.run(this.handle_list);
