@@ -33,7 +33,6 @@ public class getRecentTweets implements  Fectch{
 		System.out.println("Saving to folder:" + des);
 
 		csvLib csvlib = new csvLib();
-		//twitterConfB tc = new twitterConfB();
 		Twitter tw = tc.getTwitter();
 		//int maximum_page_num = 100;
 		int tweetsPerPage = 200;
@@ -122,9 +121,6 @@ public class getRecentTweets implements  Fectch{
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
-
-
 		}
 	}
 
